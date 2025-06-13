@@ -1,0 +1,33 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root {
+--mint: #a8e6cf;
+--mint-dark: #20c997;
+--sky-blue: #87ceeb;
+--sky-blue-dark: #00aaff;
+--gold: #ffdd57;
+--gold-dark: #f5b301;
+}
+
+body {
+font-family: 'Nunito', sans-serif;
+background-color: #f8f9fa;
+color: #333;
+line-height: 1.6;
+}
+
+/* trimmed for brevity; user provided full styles */
+.container {
+max-width: 480px;
+margin: 0 auto;
+background-color: white;
+min-height: 100vh;
+position: relative;
+padding-bottom: 80px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+/* Copy-paste full style.css from user content in real implementation */
